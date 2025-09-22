@@ -1,6 +1,6 @@
 import type { NextFunction, Request, Response } from "express";
 
-const createBook = (req: Request, res: Response, next: NextFunction) => {
+const createBook = async (req: Request, res: Response, next: NextFunction) => {
 
 }
 
