@@ -11,7 +11,7 @@ const app = express();
 
 app.use(express.json())
 
-app.get("/", (req, res, next) => {
+app.get("/", (req: Request, res: Response, next: NextFunction) => {
   res.json({
     message: "Welcome to elib apis",
   });
